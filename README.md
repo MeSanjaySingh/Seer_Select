@@ -28,6 +28,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
   - Created Redux Store with userSlice
   - Implement SignOut 
   - Update Profile [Bases On SignIn and SignOut]
+  - BugFix: SignUp user displayName and Profile Picture Update
+  - Protected Routes :  If user is not LoggedIn Redirect /browse to Login Page and ViceVersa.
+  - Unsubscribes to the onAuthStateChanges callback.
+  - Fetching data of NowPlaying Movies through TMDB API
+  - Get Data from TMDB now Playing movies List API
+  - Custom Hook For Now Playing Movies
+  - Created movieSlices
+  - Build MainContainer and SecondConatiner
+  - Fetch data For Trailer Video
+  - Updated Store with Trailer Video
+  - Embedded the Youtube Video with Custom Controls.
+  
 
 ## Features
 
