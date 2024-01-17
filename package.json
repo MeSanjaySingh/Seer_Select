@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "eslint-plugin-react-hooks": "^5.0.0-canary-6639ed3b3-20240111",
     "firebase": "^10.7.1",
+    "openai": "^4.24.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.49.3",

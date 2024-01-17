@@ -7,6 +7,7 @@ const useNowPlayingMovies = () => {
   // Fetch Data from TMDB API and update store
   const dispatch = useDispatch();
 
+  // Memoization to reduce the unnecessarily API calls
   const nowPlayingMovies = useSelector(
     (store) => store.movies.nowPlayingMovies
   );

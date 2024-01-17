@@ -42,6 +42,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - Build the Secondary Container with Movies List Suggestion using TMDB API with Custom Hooks.
 - Build Movie card
 - Custom Hooks For Fetching : Movietrailer, NowPlaying Movies, Similar Movies and Top Rated Movies .
+- GPT Search Feature => Movies Recommendations
+- GPT Page SearchBar
+- Multi-language Feature in GPT Page
+
+
 
 ## Features
 

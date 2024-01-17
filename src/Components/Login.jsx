@@ -10,6 +10,7 @@ import {
 import { auth } from "../Utils/firebase";
 import { useDispatch } from "react-redux";
 import { addUser } from "../Utils/userSlice";
+import { BG_URL } from "../Utils/constants";
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
@@ -103,7 +104,7 @@ const Login = () => {
       <div className="w-full">
         <img
           className="absolute bg-blend-multiply shadow bg-black"
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/df6621a3-890c-4ca0-b698-90bd5152f3d1/20a59be7-7062-4991-bca0-805e9a7f2716/IN-en-20240107-trifectadaily-perspective_alpha_website_large.jpg"
+          src={BG_URL}
           alt="logo"
         ></img>
       </div>
