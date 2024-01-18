@@ -45,6 +45,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - GPT Search Feature => Movies Recommendations
 - GPT Page SearchBar
 - Multi-language Feature in GPT Page
+- Integrated The Open AI API
+- GPT Search API call
+- Fetched GPT Movies Suggestions Form TMDB API
+- Resused Movies List Component to Make Movie Suggestions Conatiner
+- Memoizations to Reduces the API Call unnecessarily
+- Made the Full APP Responsive
+
 
 
 

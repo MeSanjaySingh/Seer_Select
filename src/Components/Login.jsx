@@ -99,11 +99,11 @@ const Login = () => {
   };
 
   return (
-    <div className="select-none">
+    <div className="select-none fixed">
       <Header />
-      <div className="w-full">
+      <div className="w-screen">
         <img
-          className="absolute bg-blend-multiply shadow bg-black"
+          className="absolute h-screen md:w-screen  object-cover shadow bg-black"
           src={BG_URL}
           alt="logo"
         ></img>
@@ -111,7 +111,7 @@ const Login = () => {
 
       <form
         onSubmit={(e) => e.preventDefault()}
-        className="absolute my-28 mx-auto left-0 right-0 p-12 bg-primary w-4/12 rounded-md text-white"
+        className="absolute my-16 md:my-28 md:mx-auto left-0 right-0 p-8 md:p-12 bg-primary w-full md:w-4/12 rounded-md text-white"
       >
         <h1 className="font-bold text-3xl font-sans mb-7 ">
           {isSignInForm ? "Sign In" : "Sign Up"}

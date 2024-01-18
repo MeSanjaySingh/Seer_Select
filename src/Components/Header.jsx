@@ -66,7 +66,7 @@ const Header = () => {
     dispatch(changeLanguage(e.target.value));
   };
   return (
-    <div className="absolute flex select-none items-center justify-between w-full bg-gradient-to-b  from-black px-8 py-1 z-10">
+    <div className="absolute flex flex-col md:flex-row select-none items-center justify-between w-full bg-gradient-to-b  from-black px-8 py-1 z-10">
       <img className="w-56 " src={Logo} alt="logo"></img>
       {user && (
         <div className="flex items-center">
@@ -83,7 +83,7 @@ const Header = () => {
             </select>
           )}
           <button
-            className="p-2 mr-4 rounded-lg flex items-center font-bold font-mono bg-orange-400  m-2"
+            className="md:p-2 px-5 py-2 mr-3 ml-3 md:mr-4 rounded-lg flex  items-center font-bold font-mono bg-orange-400  m-2"
             onClick={handleGptSearchClick}
           >
             <GiArtificialHive size={20} />
@@ -92,7 +92,7 @@ const Header = () => {
           <img
             alt="usericon"
             src={userIcon}
-            className="w-[40px] h-[40px] rounded-md mr-5 "
+            className="w-[40px] hidden md:block h-[40px] rounded-md mr-5 "
           ></img>
           <button
             className=" p-2 bg-red-500 rounded-sm font-bold text-white font-mono hover:animate-pulse hover:shadow-lg "

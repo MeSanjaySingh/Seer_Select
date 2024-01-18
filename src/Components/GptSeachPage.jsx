@@ -60,9 +60,9 @@ const GptSeachPage = () => {
     );
   };
   return (
-    <div className="pt-[35%] md:pt-[10%] flex justify-center ">
+    <div className="pt-[55%] md:pt-[10%] flex justify-center ">
       <form
-        className=" w-1/2 top-24 bg-transparent  rounded-xl grid grid-cols-12 text-white"
+        className=" w-full md:w-1/2 top-24 bg-transparent  rounded-xl grid grid-cols-12 text-white"
         onSubmit={(e) => e.preventDefault()}
       >
         <input
@@ -73,7 +73,7 @@ const GptSeachPage = () => {
         ></input>
 
         <button
-          className="p-2 m-7 hover:scale-105 font-bold transition-all col-span-3 bg-red-600 text-white rounded-md"
+          className="md:p-2 mr-4 my-8 md:m-7 hover:scale-105 font-bold transition-all col-span-3 bg-red-600 text-white rounded-md"
           onClick={handleGptSearchClick}
         >
           {lang[langKey].search}
